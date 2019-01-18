@@ -13,10 +13,11 @@ import notification
 #Fill this information
 inputauthCode = ''
 inputRefreshToken = ''
-
-steps=clipboard.get()
 clientID=''
 clientSecret=''
+
+steps=clipboard.get()
+
 
 baseUrl='https://api.fitbit.com'
 dateToday=datetime.datetime.now().strftime("%Y-%m-%d")
